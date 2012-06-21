@@ -1,15 +1,15 @@
 <?php
 /**
- * Vimeo DataSource
+ * Forrst DataSource
  *
- * [Short Description]
+ * [Forrst is a community where developers and designers improve their craft.]
  *
  * @package default
  * @author Dean Sofer
  * @Hacker Kevin Dimond
  **/
 App::uses('ApisSource', 'Apis.Model/Datasource');
-class Vimeo extends ApisSource {
+class Forrst extends ApisSource {
 
 	// TODO: Relocate to a dedicated schema file
 	var $_schema = array();
@@ -17,7 +17,7 @@ class Vimeo extends ApisSource {
     public $options = array(
         'protocol'   			=> 'http',
         'format'     			=> 'json',
-        'user_agent' 			=> 'CakePHP Vimeo Datasource',
+        'user_agent' 			=> 'CakePHP Forrst Datasource',
         'http_port'  			=> 80,
         'timeout'    			=> 10,
         'login'      			=> null,
